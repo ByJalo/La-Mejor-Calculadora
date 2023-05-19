@@ -42,7 +42,18 @@ public class Calculadora {
 			System.out.println("No se puede dividir entre 0");
 		}
 	}
-    // Potencia **
+    // Potencia ** - Pablo Vaquerizo Ruiz
+	public static int potencia(int a, int b) {
+    int resultado = 1;
+    for (int i = 0; i < b; i++) {
+        resultado *= a;
+    }
+    return resultado;
+}
+
+
+
+		
     // Raiz -*
     // Factorial !
     // Logaritmo log()
