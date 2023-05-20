@@ -73,7 +73,23 @@ public class Calculadora {
 		return Math.log10(num)
 	}
 
-
+	//Factorial ! Guillermo Perea Castellano
+	public int factorial() {
+		int factorial = 1;
+		if(num1 < 0)
+			return -1;
+		else if(num1 == 0)
+			return 0;
+		if(num1>15)
+			return -1;
+		else {
+			while (num1>0) {
+	    			factorial=factorial*num1; 
+	    			num1--;
+	    		}
+	    	}
+	    	return factorial;
+	    }
 		
     // Raiz -*
     // Factorial 
