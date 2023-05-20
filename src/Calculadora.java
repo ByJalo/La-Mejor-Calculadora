@@ -51,6 +51,22 @@ public class Calculadora {
     return resultado;
 }
 
+	//Raíz Cuadrada - David Andrei Florea
+	public static double calcularRaizCuadrada(double numero) {
+        if (numero < 0) {
+            throw new IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo.");
+        }
+
+        double aproximacionInicial = numero / 2; // Aproximación inicial
+        double epsilon = 0.00001; // Precisión deseada
+        double raizCuadrada = aproximacionInicial;
+
+        while (Math.abs(raizCuadrada * raizCuadrada - numero) > epsilon) {
+            raizCuadrada = (raizCuadrada + numero / raizCuadrada) / 2;
+        }
+
+        return raizCuadrada;
+    }
 
 
 		
