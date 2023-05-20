@@ -67,12 +67,16 @@ public class Calculadora {
 
         return raizCuadrada;
     }
+	
+	//Logaritmo DiegoPizarro Garrido
+	public static double Logaritmo(double num) {
+		return Math.log10(num)
+	}
 
 
 		
     // Raiz -*
-    // Factorial !
-    // Logaritmo log()
+    // Factorial 
     // Valor Absoluto ||
 
 }
