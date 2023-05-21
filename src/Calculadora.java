@@ -91,8 +91,11 @@ public class Calculadora {
 	    	return factorial;
 	    }
 		
-    // Raiz -*
-    // Factorial 
-    // Valor Absoluto ||
+   
+    // Valor Absoluto Alonso Guerrero
+	public int valorAbsoluto(int valor){
+		return(Math.abs(valor));
+
+	}
 
 }
